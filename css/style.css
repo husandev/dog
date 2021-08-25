@@ -1,0 +1,203 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+header{
+    padding: 41px 0 0 0;
+}
+nav{
+    margin-left: 291px;
+}
+.text-logo{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+.nav-items a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #170C04;
+}
+.nav-items{
+    margin-right: 55px;
+}
+.icons i, .icons img{
+    color: black;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.hero-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    color: #170C04;
+    margin: 0;
+    margin-bottom: 80px;
+    z-index: 5;
+}
+.buy-btn{
+    display: block;
+    padding: 12px 30px;
+    width: 125px;
+    border: 1px solid #E27B3A;
+    transition:all 0.4s;
+}
+.detalies-btn{
+    width: 142px;
+    display: block;
+    padding: 12px 30px;
+    margin-left: 20px;
+    border: 1px solid #E27B3A;
+    transition:all 0.4s;
+}
+.buy-btn:hover{
+    background-color: transparent;
+    color:#E27B3A;
+    border: 1px solid #FBEBE1;
+}
+.detalies-btn:hover{
+    background-color: transparent;
+    color:#E27B3A;
+    border: 1px solid #FBEBE1;
+}
+
+.dog-img{
+    width: 916px;
+    height: 611px;
+    position:relative;
+    margin-left: -178px;
+    z-index: 1;
+}
+.bg-color{
+    position: absolute;
+    margin-top: -696px;
+    z-index: 2;
+    margin-left: 235px;
+}
+.boxs{
+    width: 360px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px 25px 18px 25px;
+    transition: all 0.4;
+    margin-right: 30px;
+}
+.boxs:hover{
+    border: transparent;
+    
+    box-shadow: 15px 25px 56px 6px rgba(255, 209, 148, 0.1)
+}
+.box-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+    margin-bottom: 11px;
+}
+.box-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+    margin-bottom: 24px;
+}
+.box-lik{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+}
+.foods{
+    padding: 139px 0 118px 0;
+}
+.food-image{
+    position: absolute;
+    margin-top: -61px;
+    margin-left: -18px;
+    z-index: 3;
+}
+.food-bg-color{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -31px;
+    z-index: 4;
+}
+.food-img2{
+    margin-top: -68px;
+    margin-left: -26px;
+}
+footer{
+    background-color: #140A03;
+    padding: 58px 0 105px 0;
+}
+.footer-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.footer-title{
+    position:absolute;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 495px;
+    margin-top: -35px;
+}
+.footer-icons{
+    display: block;
+    color: #211105;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: #DFDFDF;
+    margin-right: 25px;
+}
+.icons-box{
+    position:absolute;
+    margin-left: 490px;
+}
+.footer-link{
+    margin-bottom: 37px;
+}
+.contact span{
+    color: #B9642F;
+}
+.footer-logo{
+    display: block;
+    margin: 0 auto 13px;
+}
