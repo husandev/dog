@@ -21,8 +21,8 @@ header{
     padding: 41px 0 0 0;
 }
 nav{
-    margin-left: 291px;
-}
+    margin-left: 150px;
+}   
 .text-logo{
     font-style: normal;
     font-weight: bolder;
@@ -72,7 +72,7 @@ nav{
     border: 1px solid #E27B3A;
     transition:all 0.4s;
 }
-.buy-btn:hover{
+.buy-btn:hover {
     background-color: transparent;
     color:#E27B3A;
     border: 1px solid #FBEBE1;
@@ -87,13 +87,13 @@ nav{
     width: 916px;
     height: 611px;
     position:relative;
-    margin-left: -178px;
-    z-index: 1;
+    margin-left: -225px;
+    z-index: 2;
 }
 .bg-color{
     position: absolute;
     margin-top: -696px;
-    z-index: 2;
+    z-index: 1;
     margin-left: 235px;
 }
 .boxs{
@@ -158,7 +158,7 @@ nav{
 }
 footer{
     background-color: #140A03;
-    padding: 58px 0 105px 0;
+    padding: 58px 0 65px 0;
 }
 .footer-link{
     font-style: normal;
@@ -200,4 +200,201 @@ footer{
 .footer-logo{
     display: block;
     margin: 0 auto 13px;
+}
+#triangle-up {
+    position:absolute;
+    width: 0;
+    height: 0;
+    border-left: 728px solid transparent;
+    border-right: 755px solid transparent;
+    border-bottom: 100px solid #140A03; 
+    margin-left: -148px;
+    margin-top: -114px;
+}
+#products{
+    padding: 0 0 130px 0;
+}
+.products-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight:500;
+    font-size: 32.25px;
+    line-height: 48px;
+    text-align: center;
+    color: #170C04;
+    margin-bottom: 18px;
+}
+.products-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+    margin-bottom: 25px;
+}
+.harnes-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+    margin-bottom: 9px;
+    margin-top: 25px;
+}
+.view-detalies{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    display: block;
+    color: #E27B3A;
+}
+.box img{
+    display: block;
+    margin: 0 auto;
+    background: #FCF2EB;
+    border-radius: 20px;
+    padding: 71px 91px;
+}
+.box .img2{
+    padding: 58px 126px;
+}
+.col-4 h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #170C04;
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+.box .img3{
+    padding: 0 33px;
+}
+.box .img4{
+    padding: 58px 83px;
+}
+.box .img5{
+    padding: 61px 49px;
+}
+div .col-6 ~ .col-4{
+    margin-top: 66px;
+}
+.view-all-products{
+    width: 187px;
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    border: 1px solid #FBEBE1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px 30px;
+    margin-top: 46px;
+}
+#adaption{
+    padding: 100px 0 200px 0;
+}
+.appointment-now-btn{
+    width: 189px;
+    display: block;
+    padding: 12px 30px;
+    border-radius: 24px;
+}
+.see-detalies-btn{
+    background: #FFFFFF;
+    width: 145px;
+    display: block;
+    padding: 12px 30px;
+    color: #E27B3A;
+    border-radius: 24px;    
+    border: 1px solid #FBEBE1;
+    margin-left: 30px;
+}
+.girl-image{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: -140px;
+}
+.dog-care-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32.25px;
+    line-height: 45px;
+    color: #170C04;
+    margin-bottom: 18px;
+}
+.dog-care-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #170C04;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+.dog-care{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #E27B3A;
+    opacity: 0.8;
+}
+#subscription-work{
+    padding: 75px 0 180px 0;
+}
+.dogs-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #170C04;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 51;
+    margin-bottom: 22px;
+}
+.subscription-work-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32.25px;
+    line-height: 45px;
+    text-align: center;
+    color: #170C04;
+    margin-bottom: 54px;
+}
+.dogs-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+.dogs-box img{
+    display: block;
+    margin: 0 auto;
+}
+.subscribe-btn{
+    display: block;
+    margin:  46px auto 0 auto;
+    padding: 12px 30px;
+    border: transparent;
 }

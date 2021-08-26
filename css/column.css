@@ -23,7 +23,6 @@
 }
 .between {
   justify-content: space-between;
-  position: relative;
 }
 .around {
   justify-content: space-around;
